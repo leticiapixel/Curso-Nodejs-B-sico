@@ -1,0 +1,29 @@
+Anotações Curso Node.js (Letícia)
+
+ Comando Executar arquivo node: node nomearquivo.js     Exemplo: node index.js
+
+Nodemon: biblioteca que reinicia o servidor automaticamente a cada modificação nos arquivos.
+
+Instalação local: npm install nodemon
+Instalação global: npm install -g nodemon
+
+NodeModules não sobe para o git
+
+npm i  -> instala todos os módulos e dep necessárias para o projeto
+
+Comentário vs Code (Mac): Command + :
+
+Instalar Express: npm install express
+
+Instalar mongoose: npm install mongoose
+
+Instalar dotenv: npm install dotenv
+
+Infos MONGO: user -> admin  / senha: leticiapixel2024
+
+.env => pasta de dados sensíveis como senha de conexão com BD, essa pasta não e enviada para o git, inserir .env no gitignore
+
+
+Chamada da função do data base deve  ser feita depois da linha do dotenv.config
+
+Instalar  ejs: npm install ejs
